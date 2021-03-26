@@ -1,10 +1,10 @@
 import React from 'react'
-
+import "./WrittingBox.css"
 const WrittingBox = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <input type='text' className="WrittingBoxBody"></input>
+        </>
     )
 }
 

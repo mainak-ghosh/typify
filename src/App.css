@@ -3,8 +3,14 @@
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: #b3b3b3 1px 1px 50px;
-  height: 50%;
-  margin: 10%;
+  align-items: center;
+  width: 70%;
+  
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .App-logo {

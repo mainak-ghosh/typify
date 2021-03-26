@@ -1,6 +1,6 @@
-.WrittingBoxBody{
+.ParagraphBody{
     height: auto;
-    width: 90%;
+    width: auto;
     border-radius: 20px;
     background-color: #efefef;
     border-style: none;
