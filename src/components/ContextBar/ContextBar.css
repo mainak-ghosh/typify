@@ -1,8 +1,10 @@
 .Body{
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
+    margin-left: 4%;
+    margin-right: 4%;
 }

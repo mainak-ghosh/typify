@@ -8,9 +8,9 @@ const ContextBar = () => {
             <p>wpm : 128</p>
             <p>typify </p>
             <div>
-                <CircleButton/>
-                <CircleButton/>
-                <CircleButton/>
+                <CircleButton color = 'gold'/>
+                <CircleButton color = 'green'/>
+                <CircleButton color = 'red'/>
             </div>
     
         </div>

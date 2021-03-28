@@ -1,12 +1,13 @@
 .WrittingBoxBody{
     height: auto;
     width: 90%;
-    border-radius: 20px;
+    border-radius: 8px;
     background-color: #efefef;
     border-style: none;
     margin: 2%;
     padding: 1%;
     outline: none;
     font-size: 18px;
-    box-shadow: #b3b3b3 1px 1px 50px;
+    
+    font-family: 'Roboto Mono', monospace;
 }
