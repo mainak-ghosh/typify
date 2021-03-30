@@ -1,11 +1,12 @@
 import React from 'react'
 import "./ContextBar.css";
 import CircleButton from '../CircleButton/CircleButton.js'
+import PropTypes from 'prop-types';
 
-const ContextBar = () => {
+const ContextBar = ({wpm}) => {
     return (
         <div className='Body'>
-            <p>WPM : 128</p>
+            <p>WPM : {wpm}</p>
             <p>typify </p>
             <div>
                 <CircleButton color = 'gold'/>
@@ -15,6 +16,14 @@ const ContextBar = () => {
     
         </div>
     )
+}
+
+ContextBar.defaultProps = {
+    wpm : 0,
+}
+
+ContextBar.propTypes = {
+    wpm : PropTypes.number,
 }
 
 export default ContextBar
