@@ -1,6 +1,8 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
-const CircleButton = (props) => {
+
+const CircleButton = ({color}) => {
   return (
     <>
       <svg
@@ -13,12 +15,20 @@ const CircleButton = (props) => {
           cx="40"
           cy="40"
           r="20"
-          fill= {props.color}
+          fill= {color}
           id="circle"
         />
       </svg>
     </>
   );
 };
+
+CircleButton.defaultProps = {
+  color : 'red',
+}
+
+CircleButton.propTypes = {
+  color : PropTypes.string,
+}
 
 export default CircleButton;

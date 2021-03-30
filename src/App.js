@@ -9,11 +9,13 @@ const App = () => {
   
 
   return (
+    <>
     <div className = "App" >
       <ConTextBar/>
       <ParagraphArea/>
       <WrittingBox/>
     </div>
+    </>
   );
 };
 
