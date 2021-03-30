@@ -5,11 +5,11 @@ import CircleButton from '../CircleButton/CircleButton.js'
 const ContextBar = () => {
     return (
         <div className='Body'>
-            <p>wpm : 128</p>
+            <p>WPM : 128</p>
             <p>typify </p>
             <div>
                 <CircleButton color = 'gold'/>
-                <CircleButton color = 'green'/>
+                <CircleButton color = 'black'/>
                 <CircleButton color = 'red'/>
             </div>
     
